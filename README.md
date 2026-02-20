@@ -8,8 +8,10 @@ https://4pda.to/forum/index.php?showtopic=1053772&view=findpost&p=117509354
 
 
 В SSH введи:
+
 wget https://github.com/Slevest/ASUS-RT-AX53U/releases/download/v1.0.0/openwrt-24.10.4-e8b97efb5075-ramips-mt7621-asus_rt-ax53u-squashfs-factory.bin
 
 
 Потом введи:
+
 mtd-write -i openwrt-24.10.4-e8b97efb5075-ramips-mt7621-asus_rt-ax53u-squashfs-factory.bin -d Kernel
